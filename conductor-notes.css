@@ -1,57 +1,101 @@
 /*	
+//------------------------------
+//------------------------------
 
-	--------------------------------------------------//
-	---BOT DEV NOTES----------------------------------
-	--------------------------------------------------//
+	* BOT: DEV NOTES *
 
-			
-	*	About: 			Series of notable lines of
-						code for the Synchtube Naoko 
-						bot skeleton & various code
-						snippets for testing/remembering.
+		-	
+		About: 		Series of notable lines of
+				code for the Synchtube Naoko 
+				bot skeleton & various code
+				snippets for testing/remembering.
+		-
+		File: 		naoko.py
 
-	*	File: 			lib\naoko.py
+		Authors: 	Haas
+				Muggy
+		-
+		Bot Authors: 	/r/animu
+				Desuwa
+				Falaina
+//------------------------------
+//------------------------------
 
-	*	Authors: 		Haas
-						Muggy
-
-	*	Bot Authors: 	/r/animu
-						Desuwa
-						Falaina
+	* BREAK *
+	
+//------------------------------
+//------------------------------
 
 
-			
+	* RESOURCES *
 
-	--------------------------------------------------//
-	---SOURCE FILES-----------------------------------
-	--------------------------------------------------//
-
+		-
+		Original Source:	
 		__https://github.com/Suwako/Naoko__
-
-	--------------------------------------------------//
-	--------------------------------------------------//
-
+		
+		-
+		OddMusicBox:		
+		__http://www.synchtube.com/r/TheOddMusicBox__
+		
+		-
+		Cannabis:		
+		__http://www.synchtube.com/r/cannabis__
+		
+		-
+		Animu:			
+		__http://www.synchtube.com/r/animu__
+		
+		
+//------------------------------
+//------------------------------
 */
 
 
-#fourteen-75 
-{
-	Line 1475;
-	Yes/No Replies;
-}
+
+
+#yes_no_replies  
+		{
+	
+		Line 1475;
+											/* 
+		
+		"Yes/No" replies. Starts like this:
+		
+		* ---- _Begins_  --------------------------------------------------> 
+			def ask(self, command, user, data):
+  	      		if not data: return
+  	      		question = data
+   	     		if not question: return
+   	     		
+   		* ---- _Line 1475_  -----------------------------------------------> 
+   	     		self.enqueueMsg("[Ask: %s] %s" % (question, random.choice
+   	     		(["Yes", "No", "I guess","Maybe", "Fuck yourself"])))
+
+		Note the quotes, with additional answers followed by commas. 
+		Last answer, as seen, does not need the comma.
+	 										
+											*/											
+	 																				 																				
+		}
+		
 
 
 
+#8ball_answers
 
-
-
-.They don't call it painal for nothing
-.My body is yours. Fuck me as hard as you can
-.Brace yourself, I'm going in dry
-#Sounds like a faggot question. Try again.
-#OP confirmed for glorious winged faggot.
-
-
-
-Lines to 
-#
+		{
+	
+		Line 49;
+											/* 
+		-
+		The 8 ball responses. Pretty easy to find and rather straightforward.
+		Apply the same rules as when adding "yes/no" answers. Exmaple:
+		
+		* ---- _Begins_  --------------------------------------------------> 
+		
+			eight_choices = [
+  			"An example reply",
+  			"The last reply"]
+		
+	 										*/																												 																				
+		}
